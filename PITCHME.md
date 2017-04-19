@@ -18,6 +18,8 @@ Hernan Quintana (hquintan@ulima.edu.pe)
 mundial.
 - Generar iniciativas de investigación en tópicos 
 
++++
+
 ## Mediano / corto plazo
 
 - Mejorar y/o cultivar skills algorítmicos.
@@ -67,6 +69,8 @@ Lineales
 * Stack
 * Queue
 * Double-ended Queue (Deque)
+
++++
 
 No Lineales
 
