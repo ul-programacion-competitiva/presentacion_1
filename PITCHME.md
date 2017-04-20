@@ -85,7 +85,7 @@ No Lineales
 
 ### ALGORITMOS DE BÚSQUEDA
 
-* Técnica Complete Search: Iterativa y recursica.
+* Técnica Complete Search: Iterativa y recursiva.
 * Técnicas Divide & Conquer:
 * Búsqueda binaria
 * Algoritmos Greedy
@@ -104,3 +104,53 @@ No Lineales
 *Primer Simulacro de Concurso*
 
 ---
+
+# Introducción al C
+
+---
+
+# Recursos
+
+- [Tutorials Point](https://www.tutorialspoint.com/cprogramming/c_overview.htm)
+
+---
+
+# Proceso de compilación y enlazado
+
+![Logo](http://www.binaryupdates.com/wp-content/uploads/c-code-compilation-process.jpg)
+
+1. El compilador lee el código fuente y genera lo que se llama el código
+máquina. Este código no se puede ejecutar (archivo .o). _Step1, Step2 y
+Step3_.
+2. El compilador _enlaza_ el código máquina (objeto) generado con otros
+programas compilados y genera el ejecutable (archivo .exe). _Step4_.
+3. Se ejecuta el archivo .exe generado.
+
+---
+
+# Compilador C
+
+Existen varios compiladores de C/C++. Nosotros utilizaremos el gcc o GNU
+C Compiler. Para el caso de C++ el compilador que podemos utilizar el
+g++.
+
+Para instalar el compilador (en máquinas windows porque Linux y Mac OS
+ya viene instalado por defecto), se recomienda utilizar el
+[MinGW](https://sourceforge.net/projects/mingw/files/). En el sitio GIT
+de esta presentación también se encuentra un HOWTO de cómo instalarlo en
+Windows.
+
++++
+
+## Ejemplo
+
+Tenemos el siguiente código:
+
+```c
+
+```
+
+
+
+
+
