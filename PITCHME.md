@@ -155,6 +155,8 @@ concursos de programación por su *versatilidad*.
 
 # Proceso de compilación y enlazado
 
++++
+
 ![Logo](http://www.binaryupdates.com/wp-content/uploads/c-code-compilation-process.jpg)
 
 1. El compilador lee el código fuente y genera lo que se llama el código
