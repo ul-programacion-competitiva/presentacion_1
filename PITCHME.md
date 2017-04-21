@@ -150,10 +150,14 @@ concursos de programación por su *versatilidad*.
 
 - [C](https://www.tutorialspoint.com/cprogramming/c_overview.htm)
 - [C++](http://www.tutorialspoint.com/cplusplus/)
+- [Vim Tutorial](http://www.glump.net/files/2012/08/vi-vim-cheat-sheet-and-tutorial.pdf)
+- [Vim Cheatsheet](https://vim.rtorr.com/)
 - Libro: Stanley B. Lippman, Josée Lajoie, Barbara E. Moo-C++
 Primer-Addison-Wesley Professional (2012)
 - Libro: Steven Halim, Felix Halim-Competitive Programming 3 The New
 Lower Bound of Programming Contests-Lulu.com (2013)
+- Libro: Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
+Clifford Stein-Introduction to Algorithms-MIT (2009)
 
 ---
 
@@ -204,7 +208,7 @@ int main(int argc, char **argv)
 }
 ```
 
----
++++
 
 ## Ejemplo en C++
 
@@ -230,5 +234,38 @@ int main()
 
 - ¿Cómo podríamos leer de un archivo y no de la entrada estándar?
 
++++
 
+## Otro ejemplo
+
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+  string pal="";
+
+  while (getline(cin, pal))
+  {
+    cout << pal << endl;
+  }
+}
+```
+
+---
+
+## Problema
+
+Resolver el problema del Cap 1.1 de Halim.
+
+---
+
+## Tarea
+
+- Cap 1 de C++ Primer
+- Lectura de Capitulo 1 del Halim. Opcional el ejercicio del capítulo
+1.1. 
 
