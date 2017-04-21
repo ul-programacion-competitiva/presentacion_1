@@ -148,8 +148,12 @@ concursos de programación por su *versatilidad*.
 
 # Recursos
 
-- [Tutorials Point](https://www.tutorialspoint.com/cprogramming/c_overview.htm)
+- [C](https://www.tutorialspoint.com/cprogramming/c_overview.htm)
 - [C++](http://www.tutorialspoint.com/cplusplus/)
+- Libro: Stanley B. Lippman, Josée Lajoie, Barbara E. Moo-C++
+Primer-Addison-Wesley Professional (2012)
+- Libro: Steven Halim, Felix Halim-Competitive Programming 3 The New
+Lower Bound of Programming Contests-Lulu.com (2013)
 
 ---
 
@@ -157,13 +161,15 @@ concursos de programación por su *versatilidad*.
 
 +++
 
-![Logo](http://www.binaryupdates.com/wp-content/uploads/c-code-compilation-process.jpg)
+![Proceso de Compilación](http://www.binaryupdates.com/wp-content/uploads/c-code-compilation-process.jpg)
+
++++
 
 1. El compilador lee el código fuente y genera lo que se llama el código
-máquina. Este código no se puede ejecutar (archivo .o). _Step1, Step2 y
-Step3_.
-2. El compilador _enlaza_ el código máquina (objeto) generado con otros
-programas compilados y genera el ejecutable (archivo .exe). _Step4_.
+máquina. Este código no se puede ejecutar (archivo .o). __Step1, Step2 y
+Step3__.
+2. El compilador __enlaza__ el código máquina (objeto) generado con otros
+programas compilados y genera el ejecutable (archivo .exe). __Step4__.
 3. Se ejecuta el archivo .exe generado.
 
 ---
