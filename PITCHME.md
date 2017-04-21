@@ -105,6 +105,43 @@ No Lineales
 
 ---
 
+# Diferencias con cursos de programación *tradicionales*.
+
++++
+
+## Tipear código rápidamente -> _PRACTICA_
+
+- Práctica, práctica y más práctica.
+- Conocerás atajos de teclado -> _NO UTILIZAR EL MOUSE PARA NADA_
+- Utilizaremos (y aprenderán) el editor VIM.
+
++++
+
+## Identificar problemas tipo y saber como resolverlos
+
+- Según avancemos iremos viendo más y más tópicos.
+
++++
+
+## Hacer análisis de algoritmos
+
+Si tienes data de entrada de 100K (10<sup>3</sup>) y tu algoritmo tiene
+complejidad de O(2) o O(n<sup>2</sup>), entonces significa que tu
+algoritmo tardará (10K)<sup>2</sup>, esto es 10<sup>10</sup> que es un
+número muy grande que hará tardar demasiado el algoritmo. Por lo tanto,
+necesitamos mejorar ese algoritmo.
+
++++
+
+## Masterizar un lenguaje de programación
+
+- Se tiene que conocer las características propias de un lenguaje de
+programación para poder resolver de una manera más rápida los problemas.
+- El C/C++ es uno lenguaje de programación más utilizados en los
+concursos de programación por su *versatilidad*.
+
+---
+
 # Introducción al C
 
 ---
@@ -112,6 +149,7 @@ No Lineales
 # Recursos
 
 - [Tutorials Point](https://www.tutorialspoint.com/cprogramming/c_overview.htm)
+- [C++](http://www.tutorialspoint.com/cplusplus/)
 
 ---
 
@@ -147,10 +185,42 @@ Windows.
 Tenemos el siguiente código:
 
 ```c
+#include <stdio.h>
 
+int main(int argc, char **argv)
+{
+  char str1[20];
+  printf("Ingrese un numero:\n");
+  scanf("%s", str1);
+  printf("El número que ingresó es el siguiente: %s\n", str1);
+}
 ```
 
+---
 
+## Ejemplo en C++
+
+
+```c
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+int main()
+{
+  string pal="";
+
+  while (cin >> pal)
+  {
+    cout << pal << " ";
+  }
+  cout << "\n\n";
+}
+```
+
+- ¿Cómo podríamos leer de un archivo y no de la entrada estándar?
 
 
 
